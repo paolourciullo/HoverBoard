@@ -36,7 +36,9 @@ function setColor(element) {
   element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`;
 }
 
+// listen for modifier key, make shift key leave squares lit while shift is down
 function removeColor(element) {
+  
   element.style.background = '#1d1d1d';
   element.style.boxShadow = '0 0 2px #000';
 }
